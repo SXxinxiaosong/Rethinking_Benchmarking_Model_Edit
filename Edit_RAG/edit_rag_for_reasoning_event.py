@@ -580,7 +580,7 @@ if __name__ == "__main__":
     retriever = None
     retriever_tok = None
     if args.retriever_type=="contriever-ms":
-        retriever_path = "/fs-computility/ai-shen/songxin/models/contriever-msmarco"
+        retriever_path = "contriever-msmarco"
         retriever = AutoModel.from_pretrained(retriever_path).to(args.device)
         retriever_tok = AutoTokenizer.from_pretrained(retriever_path)
 
