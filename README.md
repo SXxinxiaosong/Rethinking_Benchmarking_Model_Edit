@@ -21,11 +21,7 @@ The `LUFFY` folder provides tools for **evaluating the inference abilities** of 
 2. **SCR Execution**: Use the scripts in `Edit_RAG` to apply the SCR method, which integrates new knowledge into the model through a RAG-based approach.
 3. **Evaluation**: After editing the model, use the tools in `LUFFY` to evaluate the model's inference ability and performance on relevant tasks.
 
-## Dependencies
+## Acknowledge
 
-- Python 3.x
-- Required libraries and frameworks (e.g., PyTorch, Hugging Face, etc.) are listed in `requirements.txt`.
+Our code is based on [EasyEdit](https://github.com/zjunlp/EasyEdit.git) and [LUFFY](https://github.com/ElliottYan/LUFFY.git).
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
